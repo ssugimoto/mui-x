@@ -137,6 +137,11 @@ const jaJPGrid: Partial<GridLocaleText> = {
 
   // Row reordering text
   rowReorderingHeaderName: '行並び替え',
+  
+  MuiTablePagination: {
+    labelRowsPerPage: 'ページごとの行数:', //en :Rows per page
+  },
+
 };
 
 export const jaJP: Localization = getGridLocalization(jaJPGrid, jaJPCore);
